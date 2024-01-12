@@ -1,7 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
-import cplus from "../assets/img/cplus.svg"
+import cplus from "../assets/img/cplus.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faBootstrap , faJs, faReact , faNodeJs, faPython  } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase , faCode,faPencil } from '@fortawesome/free-solid-svg-icons';

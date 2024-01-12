@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img1.svg";
+import mine from "../assets/img/mine1.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { animateScroll as scroll } from 'react-scroll';
 import React from 'react'
 
 export const Banner = () => {
@@ -60,16 +59,15 @@ export const Banner = () => {
                 {/* <span className="tagline">skipper__7</span> */}
                 <h1>{`Hi! I'm Swaraj,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Coder", "Artist" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Looking for 6 Internship and full time SDE role, graduating in 2024. Final year Student at Army Institute of Technology, Pune. Skills: C++ ,ReactJS, JavaScript, Python, TypeScript, Django, SQL , MongoDB , HTML5, CSS3, Tailwind CSS, and NodeJS</p>
-                  {/* <button onClick={handleScrollToContact}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
                   <button style={{textDecoration:'None'}}><a href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+              {() =>
+                <div>
+                  <img src={mine} alt="Header Img" style={{marginTop: "-75px"}}/>
                 </div>}
             </TrackVisibility>
           </Col>
