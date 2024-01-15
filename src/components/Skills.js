@@ -2,9 +2,10 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 import cplus from "../assets/img/cplus.png"
+import mysql from "../assets/img/mysql.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faBootstrap , faJs, faReact , faNodeJs, faPython  } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase , faCode,faPencil } from '@fortawesome/free-solid-svg-icons';
+import { faPencil } from '@fortawesome/free-solid-svg-icons';
 
 
 export const Skills = () => {
@@ -40,6 +41,7 @@ export const Skills = () => {
                 <img className="custom-icon" src={cplus} alt="C++ Icon"/>
                   <h5>C++</h5>
                 </div>
+              
                 <div className="item">
                 <FontAwesomeIcon icon={faJs} size="10x" />
                   <h5>JavaScript</h5>
@@ -49,13 +51,14 @@ export const Skills = () => {
                   <h5>ReactJS</h5>
                 </div>
                 <div className="item">
+                <img className="custom-icon" src={mysql} alt="C++ Icon"/>
+                  <h5>mySql</h5>
+                </div>
+                <div className="item">
                   <FontAwesomeIcon icon={faHtml5} size="10x" />
                   <h5>HTML5</h5>
                 </div>
-                {/* <div className="item">
-                  <FontAwesomeIcon icon={faCode} size="10x" />
-                  <h5>CSS</h5>
-                </div> */}
+
                 <div className="item">
                   <FontAwesomeIcon icon={faCss3Alt} size="10x" />
                   <h5>CSS3</h5>
@@ -64,10 +67,7 @@ export const Skills = () => {
                   <FontAwesomeIcon icon={faBootstrap} size="10x"/>
                   <h5>Bootstrap</h5>
                 </div>
-                <div className="item">
-                <FontAwesomeIcon icon={faDatabase} size='10x'/>
-                  <h5>SQL</h5>
-                </div>
+                
                 <div className="item">
                 <FontAwesomeIcon icon={faNodeJs} size='10x' />
                   <h5>NodeJS</h5>
