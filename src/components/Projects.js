@@ -1,6 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import newms from "../assets/img/Newms.png";
+import food from "../assets/img/foodDelivery.png";
+import kartit from "../assets/img/kartit.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -9,40 +11,47 @@ export const Projects = () => {
 
   const projects = [
     {
-      link: "Business Startup",
-      description: "Design & Development",
-      imgUrl: newms,
-      url: "",
+      link: "KartIt",
+      description: "An e-commerce application which allows only logged-in user to access protected routes",
+      imgUrl: kartit,
+      url: "https://e-commerce-cc9e2.web.app/",
+      repo:"https://github.com/swaraj-skipper/kartit",
+      
     },
     {
-      link: "Business Startup",
-      description: "Design & Development",
-      imgUrl: newms,
-      url: "https://github.com/swaraj-skipper/news",
-    },
-    {
-      link: "Business Startup",
-      description: "Design & Development",
+      link: "Newms",
+      description: "A react based website, fetches latest news from NewsApi.org (Hosted as dummy offline, NewsAPI business plan requirred)",
       imgUrl: newms,
       url: "",
-    },
-    {
-      link: "Business Startup",
-      description: "Design & Development",
-      imgUrl: newms,
-      url: "",
+      repo:"https://github.com/swaraj-skipper/news",
     },
     {
       link: "Business Startup",
       description: "Design & Development",
       imgUrl: newms,
       url: "",
+      repo:"https://github.com/swaraj-skipper/Food-Delivery-Website",
     },
     {
       link: "Business Startup",
       description: "Design & Development",
       imgUrl: newms,
       url: "",
+      repo:"https://github.com/swaraj-skipper/Food-Delivery-Website",
+    },
+    {
+      link: "Business Startup",
+      description: "Design & Development",
+      imgUrl: newms,
+      url: "",
+      repo:"https://github.com/swaraj-skipper/Food-Delivery-Website",
+    },
+    {
+      link: "Khana Khazana",
+      description: "A responsive frontend web-application mimicking a food delivery web, made using HTML and CSS only",
+      imgUrl: food,
+      url: "https://swaraj-skipper.github.io/Food-Delivery-Website/?name=&number=&mail=&msg=",
+      repo:"https://github.com/swaraj-skipper/Food-Delivery-Website",
     },
   ];
 

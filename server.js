@@ -9,11 +9,31 @@ app.use(express.json());
 app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
+// const contactEmail = nodemailer.createTransport({
+//   service: 'gmail',
+//   auth: {
+//     user: process.env.EMAIL_USER,
+//     pass: process.env.EMAIL_PASS,
+//   },
+// });
+
+// const contactEmail = nodemailer.createTransport({
+//   // service: 'gmail',
+//   host: 'smtp.ethereal.email',
+//   port: 587,
+//   auth: {
+//     user: 'victoria82@ethereal.email',
+//     pass: 'PmK215pC6wEBy7nDwz',
+//     authMethod: 'PLAIN',
+//   },
+// });
+
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS,
+    user: 'victoria82@ethereal.email',
+    pass: 'PmK215pC6wEBy7nDwz',
+    authMethod: 'PLAIN',
   },
 });
 
@@ -39,6 +59,9 @@ router.post("/contact", (req, res) => {
            <p>Phone: ${phone}</p>
            <p>Message: ${message}</p>`,
   };
+
+  console.log(name, email, "waao", message, phone)
+
   contactEmail.sendMail(mail, (error) => {
     if (error) {
       console.error(error);
