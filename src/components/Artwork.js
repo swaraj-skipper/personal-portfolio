@@ -4,7 +4,7 @@ import ait from "../assets/arts/ait.jpg"
 import attacktitan from "../assets/arts/attacktitan.jpg"
 import birb from "../assets/arts/birb.jpg"
 import fam from "../assets/arts/fam.jpg"
-import final from "../assets/arts/final.jpg"
+import rengoku from "../assets/arts/final.jpg"
 import ganeshji from "../assets/arts/ganeshji.jpg"
 import gojo from "../assets/arts/gojo.jpg"
 import jellalxerza from "../assets/arts/jellalxerza.jpg"
@@ -21,25 +21,25 @@ import natsudragneel from "../assets/arts/natsudragneel.jpg"
 
 export default function Artwork() {
     const arts = [
-        { img: ait, desc: "Description for AIT" },
+        { img: fam, desc: "Description for Fam" },
         { img: attacktitan, desc: "Description for Attack Titan" },
         { img: birb, desc: "Description for Birb" },
-        { img: fam, desc: "Description for Fam" },
-        { img: final, desc: "Description for Final" },
+        { img: ait, desc: "Description for AIT" },
+        { img: gokussb, desc: "Description for Skull" },
         { img: ganeshji, desc: "Description for Ganeshji" },
         { img: gojo, desc: "Description for Gojo" },
-        { img: jellalxerza, desc: "Description for Jellal x Erza" },
         { img: kid, desc: "Description for Kid" },
-        { img: levi, desc: "Description for Levi" },
-        { img: luffy, desc: "Description for Luffy" },
+        { img: natsudragneel, desc: "Description for Skull" },  
         { img: maidsama, desc: "Description for Maid Sama" },
-        { img: ms, desc: "Description for MS" },
-        { img: natsu, desc: "Description for Natsu" },
         { img: skull, desc: "Description for Skull" },
+        { img: natsu, desc: "Description for Natsu" },
         { img: joker, desc: "Description for Skull" },
-        { img: natsudragneel, desc: "Description for Skull" },
-        { img: gokussb, desc: "Description for Skull" },
-      ];
+        { img: ms, desc: "Description for MS" },
+        { img: levi, desc: "Description for Levi" },
+        { img: rengoku, desc: "Description for Final" },
+        { img: jellalxerza, desc: "Description for Jellal x Erza" },
+        { img: luffy, desc: "Description for Luffy" },
+    ];
       
 
     return (

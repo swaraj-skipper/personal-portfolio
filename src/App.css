@@ -604,7 +604,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .art-card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   z-index: 3;
 }
 
@@ -670,3 +670,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+#prompt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
