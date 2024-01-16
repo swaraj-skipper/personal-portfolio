@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "portfolio-skipper7",
+    "stage": "portfolio-skipper-7",
+    "staging": "skipper-7"
+  },
+  "targets": {},
+  "etags": {}
+}
