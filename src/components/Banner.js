@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <a className="tagline" href="https://drive.google.com/file/d/1VOn8PAVlIL6QqXhnuJHmWCnMkErq-y4n/view?usp=drive_link" target="_blank">View resume</a>
                 <h1>{`Hi! I'm Swaraj,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Coder", "Artist" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Looking for 6 Internship and full time SDE role, graduating in 2024. Final year Student at Army Institute of Technology, Pune. Skills: C++ ,ReactJS, JavaScript, Python, TypeScript, Django, SQL , MongoDB , HTML5, CSS3, Tailwind CSS, and NodeJS</p>
+                  <p>Looking for Internship and full time SDE role, graduating in 2024. Final year Student at Army Institute of Technology, Pune. Skills: C++ ,ReactJS, JavaScript, Python, SQL, MongoDB, HTML5, CSS3, Tailwind CSS, NodeJS and PowerBI.</p>
                   <button style={{textDecoration:'None'}}><a href="#connect">Let’s Connect <ArrowRightCircle size={25} /></a></button>
               </div>}
             </TrackVisibility>
